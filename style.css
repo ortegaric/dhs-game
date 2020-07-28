@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;700&display=swap');
+
+html * {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Red Rose', cursive;
+	margin: 28px;
+}
+
+img {
+	height: 300px;
+	width: 100%;
+	object-fit: cover;
+}
+
+#titulo, .cartao, img, .botao, footer, .filtro {
+	border-radius: 8px;
+}
+
+#titulo {
+	background-color: #424242;
+	color: #fff;
+	font-size: 44px;
+	text-shadow: 3px 3px 4px red;
+
+	/* background - imagem */
+	background-image: url("imagem-8.jpg");
+	background-position: center;
+	background-size: cover;
+
+	padding: 38px 16px;
+}
+
+#grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 22px;
+}
+
+.cartao {
+	border: 2px solid #ccc;
+	padding: 16px;
+	align-self: flex-start;
+}
+
+.botao {
+	display: block;
+	background-color: red;
+	color: white;
+	font-size: 18px;
+	letter-spacing: 1px;
+	text-decoration: none;
+	padding: 14px 38px;
+	transition: all 0.5s;
+	margin: auto;
+	width:50%;
+	text-align: center;
+}
+
+.botao:hover {
+	background-color: #000;
+	text-decoration: underline;
+}
+
+footer {
+	background-color: #424242;
+	height: 100px;
+	margin-top: 28px;
+	background-image: url("imagem-7.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.filtro {
+	background-color: rgba(42,0,0,0.6);
+	height: 100%;
+}
+
+.centro {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+small {
+	font-size: 28px;
+	color: #fff;
+}

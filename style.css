@@ -52,10 +52,8 @@ img {
 	font-size: 18px;
 	letter-spacing: 1px;
 	text-decoration: none;
-	padding: 14px 38px;
+	padding: 14px 32px;
 	transition: all 0.5s;
-	margin: auto;
-	width:50%;
 	text-align: center;
 }
 
